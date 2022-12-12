@@ -1,0 +1,43 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+#canvas{
+  margin:0 auto;
+  justify-content: center;
+  width:100%;
+  height:100%;
+  background-color: white;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position:absolute;
+  top:50%;
+  left:0;
+  display:flex;
+  flex-direction:column;
+  width:10%;
+  background-color: rgb(255, 255, 255);
+}
+ul > div{
+  display:flex;
+  flex-direction: column;
+}
+
+.options{
+  z-index:100;
+  position:absolute;
+  top:20%;
+  left:50%;
+}
+.group{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
